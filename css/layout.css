@@ -1422,7 +1422,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-sky-light{
-  height :450px;
+
 }
 .btn-submit{
   background-color: #64bb43;
@@ -1567,6 +1567,45 @@ fieldset[disabled] .btn-theme {
   transform: scale(1.2);
 }
 
+#footer .links {
+  margin-top: 15px;
+}
+
+#footer .links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#footer .links ul li a:hover {
+  color: #fff
+}
+
+
+.links {
+  margin-top:30px;
+  text-align: center;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.links ul li {
+  float: left;
+  margin-right: 25px;
+}
+
+.links ul li:last-child {
+  margin-right: 0;
+}
+
+
 #footer
 {
   background: #79bb60;	
@@ -1631,4 +1670,10 @@ margin-top: 10px;
 
 .serv-sec{
   padding-bottom: 20px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
 }
