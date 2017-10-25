@@ -1024,6 +1024,45 @@ fieldset[disabled] .btn-theme {
   line-height: 1.1;
   text-transform: uppercase;
 }
+.left-control, .right-control {
+  position: absolute;
+  top: 50%;
+  height: 51px;
+  width: 51px;
+  line-height: 48px;
+  border-radius: 50%;
+  border:1px solid #fff;  
+  z-index: 20;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.left-control {
+  left: -51px
+} 
+
+.right-control {
+  right: -51px;
+}
+
+.left-control:hover, 
+.right-control:hover {
+  color: #fff;
+}
+
+#carousel-example-generic:hover .left-control {
+  left:30px
+} 
+
+#carousel-example-generic:hover .right-control {
+  right:30px
+}
 .item:before {
   content: " ";
   position: absolute;
